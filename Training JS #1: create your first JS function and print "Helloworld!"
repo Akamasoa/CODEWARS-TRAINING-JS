@@ -1,5 +1,0 @@
-function bigToSmall(arr){
-  //coding here...
-  return [].concat(...arr).sort((a,b) => a-b).reverse().join('>');
-
-		}
