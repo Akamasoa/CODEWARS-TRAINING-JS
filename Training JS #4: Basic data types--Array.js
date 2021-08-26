@@ -25,3 +25,25 @@ console.log(arr)     //[1,2,3]
     3. getLast(arr)      should return the last element of arr
     4. pushElement(arr)  should push an element to arr, and then return arr
     5. popElement(arr)   should pop an element from arr, and then return arr
+
+function getLength(arr){
+  //return length of arr
+  return ?;
+}
+function getFirst(arr){
+  //return the first element of arr
+  return ?;
+}
+function getLast(arr){
+  //return the last element of arr
+  return ?;
+}
+function pushElement(arr){
+  var el=1;
+  //push el to arr
+  return ?;
+}
+function popElement(arr){
+  //pop an element from arr
+  return ?;
+}
