@@ -10,3 +10,9 @@
 function animal(obj){
   return 'This ' + obj.color + ' ' + obj.name + ' has ' + obj.legs + ' legs.';
 }
+
+//With backticks:
+
+function animal(obj){
+  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+}
