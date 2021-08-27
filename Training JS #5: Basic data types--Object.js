@@ -20,5 +20,5 @@ animal.name="dog"  (or animal["name"]="dog")
 "This white dog has 4 legs."
 
 function animal(obj){
-  return ?
+  return ???
 }
