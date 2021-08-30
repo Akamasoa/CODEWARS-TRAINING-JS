@@ -1,3 +1,4 @@
+/*
 In javascript, String is one of basic data types. Use or to declare a string variable. It can be letters:, numbers: , Various symbol: , Control symbol: etc..""''a,b,c,A,B,C123...@#$%^&*\n,\t
 
 String can use operators , Connect two or more strings together.+
@@ -10,3 +11,33 @@ When you have finished the work, click "Run Tests" to see if your code is workin
 misson 2: After misson 1 finished. you should click "Attempt" to see my three questions, and write the answer in function answer1, answer2,answer3
 
 If everything is right, click "Submit" again to submit your code pass this kata.
+*/
+
+function Dad(){
+  //select some variable to combine "Dad"
+  return ?;
+}
+function Bee(){
+  //select some variable to combine "Bee"
+  return ?;
+}
+function banana(){
+  //select some variable to combine "banana"
+  return ?;
+}
+
+
+//answer some questions if you finished works above
+function answer1(){
+  //the answer should be "yes" or "no"
+  return ?;
+}
+function answer2(){
+  //the answer should be "yes" or "no"
+  return ?;
+}
+function answer3(){
+  //the answer should be "yes" or "no"
+  return ?;
+}
+
