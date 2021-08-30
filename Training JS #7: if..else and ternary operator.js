@@ -57,3 +57,7 @@ need to pay how much money.saleHotdogsSaleHotDogssale_hotdogsn
 |n>=10          |     90      |
 +---------------+-------------+
 //You can use if..else or ternary operator to complete it.
+
+  function saleHotdogs(n){
+  return ?
+}
