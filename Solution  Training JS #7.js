@@ -33,6 +33,16 @@ function saleHotdogs(n){
   }
 }
 
+//With Swith:
+
+const saleHotdogs = (n) => {
+  switch (true) {
+    case n < 5: return 100 * n;
+    case n < 10: return 95 * n;
+    default: return 90 * n;
+  }
+}
+
 //Or:
 function saleHotdogs(n){
 if(n<5) return 100 * n;
