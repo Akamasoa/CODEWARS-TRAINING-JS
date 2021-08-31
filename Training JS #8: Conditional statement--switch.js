@@ -73,3 +73,12 @@ in this month(month is always greater than 0, less than or equal to 12).howManyd
 +---------------+-------------+
 
 //little tips: Use for most of the cases can reduce your work.default
+  
+
+  function howManydays(month){
+  var days;
+  switch (){
+  
+  }
+  return days;
+}
