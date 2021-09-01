@@ -9,6 +9,25 @@ You need to write a loop statement within the function that loops n times. Each 
 Finally, return the padded string.
 */
 
+//While Solution:
+
 function padIt(str,n){
-  //coding here
+  let result = str;
+  let i = 0;
+
+  while (i < n) {
+    if (i % 2 === 0) {
+      result = `*${result}`;
+    } else {
+      result = `${result}*`;
+    }
+    i += 1;
+  }
+  return result;
 }
+
+//Short Solution:
+
+const padIt = (str, n) =>
+  `${'*'.repeat(Math.ceil(n / 2))}${str}${'*'.repeat(Math.floor(n / 2))}`
+
