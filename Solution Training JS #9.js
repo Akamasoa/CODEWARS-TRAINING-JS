@@ -26,11 +26,6 @@ function padIt(str,n){
   return result;
 }
 
-//With Short:
-
-const padIt = (str, n) =>
-  `${'*'.repeat(Math.ceil(n / 2))}${str}${'*'.repeat(Math.floor(n / 2))}`
-
 //With Ternary Operator:
 
 function padIt(str, n) {
