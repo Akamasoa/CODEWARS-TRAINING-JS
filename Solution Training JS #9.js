@@ -26,8 +26,16 @@ function padIt(str,n){
   return result;
 }
 
-//Short Solution:
+//With Short:
 
 const padIt = (str, n) =>
   `${'*'.repeat(Math.ceil(n / 2))}${str}${'*'.repeat(Math.floor(n / 2))}`
 
+//With Ternary Operator:
+
+function padIt(str, n) {
+  while (n > 0) {
+    str = n-- % 2 ? '*' + str : str + '*';
+  }
+  return str;
+}
