@@ -37,3 +37,15 @@ var sum=0,num=1  --->  num<=100 ?  ------> code block---> num++
                            false|
                        loop terminated
 
+//When you need to traverse an array, you can use the for loop. look this example:
+
+function displayElements(array){
+  for (var i=0;i<array.length;i++){
+    console.log(array[i]);
+  }
+}
+
+//This function will display every element of array on your screen.
+
+//Ok, lesson is over, let's us do some task with .for
+
