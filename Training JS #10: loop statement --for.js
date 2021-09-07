@@ -49,3 +49,10 @@ function displayElements(array){
 
 //Ok, lesson is over, let's us do some task with .for
 
+function pickIt(arr){
+  var odd=[],even=[];
+  //coding here
+  
+  
+  return [odd,even];
+}
