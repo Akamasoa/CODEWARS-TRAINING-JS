@@ -44,20 +44,20 @@ That's how we use the For Loop.
 function pickIt(arr){
   var odd=[],even=[];
   //coding here
-    for(let i = 0; i < arr.length; i++){
+    for (let i = 0; i < arr.length; i++){
   arr[i] % 2 === 0 ? even.push(arr[i]) : odd.push(arr[i]);
   }
    return [odd,even];
 }
 
 
-//With if..else:
+//With if...else:
 
 function pickIt(arr){
   var odd=[],even=[];
    //coding here
-  for(let i = 0; i < arr.length; i++){
-    if(arr[i] % 2 === 0){
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i] % 2 === 0){
       even.push(arr[i]);
     }
     else {
@@ -65,4 +65,16 @@ function pickIt(arr){
     }
   }
    return [odd,even];
+}
+
+
+//With for...of:
+
+function pickIt (arr) {
+  let odd = []
+  let even =[]
+  for (var x of arr) {
+      ((x % 2) ? odd : even).push(x)    
+  }
+  return [odd, even]
 }
