@@ -18,9 +18,9 @@ function grabDoll(dolls){
   //coding here
   for (let i = 0; i < dolls.length; i++){
     if (bag.length === 3) break;
-    if (dolls[i] === "Hello Kitty" || dolls[i] === "Barbie doll"){
+     if (dolls[i] === "Hello Kitty" || dolls[i] === "Barbie doll"){
       bag.push(dolls[i]);
-    }else{
+    } else {
       continue;
     }
   }
@@ -31,6 +31,7 @@ function grabDoll(dolls){
 
 function grabDoll(dolls){
   var bag=[];
+  //coding here
   for (let i in dolls) {
     if (dolls[i] != 'Hello Kitty' && dolls[i] != 'Barbie doll') {
       continue;
