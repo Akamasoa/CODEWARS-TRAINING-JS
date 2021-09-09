@@ -13,4 +13,18 @@ You should use ```for```, ```break``` and ```continue``` in your code. otherwise
 If you forgot how to push an element to array, please refer to [lesson 4](http://www.codewars.com/kata/571effabb625ed9b0600107a).
 
 
+function grabDoll(dolls){
+  var bag=[];
+  //coding here
+  for (let i = 0; i < dolls.length; i++){
+    if (bag.length === 3) break;
+    if (dolls[i] === "Hello Kitty" || dolls[i] === "Barbie doll"){
+      bag.push(dolls[i]);
+    }else{
+      continue;
+    }
+  }
+  return bag;
+}
+
 
