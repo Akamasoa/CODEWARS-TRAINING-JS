@@ -27,4 +27,19 @@ function grabDoll(dolls){
   return bag;
 }
 
+//With for...in:
 
+function grabDoll(dolls){
+  var bag=[];
+  for (let i in dolls) {
+    if (dolls[i] != 'Hello Kitty' && dolls[i] != 'Barbie doll') {
+      continue;
+    } else {
+      bag.push(dolls[i]) ;
+    }
+    if (bag.length == 3) {
+      break;
+    }
+  } 
+  return bag;
+}
