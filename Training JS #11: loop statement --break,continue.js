@@ -12,4 +12,14 @@ function findFirstOddNumber(arr){
   return result;
 }
     
+//In this example, for loop traverse the array arr. when the first odd number found, statement will jump out the for loop.break
+
+//In the loop statement, we can use skipping some code. for example, the following code ignores negative values:continue
+
+function dontDisplayNegative(arr){
+  for (var i=0;i<arr.length;i++){
+    if (arr[i]<0) continue;   
+    console.log(arr[i])
+  }
+}
 
