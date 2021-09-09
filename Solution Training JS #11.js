@@ -12,4 +12,5 @@ You should use ```for```, ```break``` and ```continue``` in your code. otherwise
 
 If you forgot how to push an element to array, please refer to [lesson 4](http://www.codewars.com/kata/571effabb625ed9b0600107a).
 
-                                                                      
+
+
