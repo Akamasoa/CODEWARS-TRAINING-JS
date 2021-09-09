@@ -23,3 +23,10 @@ function dontDisplayNegative(arr){
   }
 }
 
+/*
+In this example, is never executed for negative element. thanks to .console.log(arr[i])continue
+
+Through the use of and , you can make the loop statement more flexible and convenient.breakcontinue
+
+Ok, lesson is over. let's us do some task with and .breakcontinue
+*/
