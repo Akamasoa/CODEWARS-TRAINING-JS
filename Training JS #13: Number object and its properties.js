@@ -29,4 +29,18 @@ Its approximate value is 5e-324
 
 NaN: Non numeric value. Abbreviations of "Not a Number". When some arithmetic operations (such as the square root of a negative number) 
 or the result of the method are not numbers, return NaN. Usage:Number.NaN. It can be simplified and replaced with NaN.
+
+Please note: the results of comparison between NaN and other values are always not equal(including its own). 
+Therefore, can not be compared with Number.NaN to detect a value is not a number but can only call isNaN() to compare.
+
+NEGATIVE_INFINITY: The value represents the negative infinity. Usage:Number.NEGATIVE_INFINITY. 
+When a number is generated in an arithmetic operation or function and it smaller than -Number.MAX_VALUE return this value. 
+It can be simplified and replaced with -Infinity.
+
+POSITIVE_INFINITY: The value represents the positive infinity. Usage:Number.POSITIVE_INFINITY. 
+When a number is generated in an arithmetic operation or function and it larger than Number.MAX_VALUE return this value. 
+It can be simplified and replaced with Infinity.
+
+Ok, lesson is over. let's us do some task with Number objects.
+
 */
