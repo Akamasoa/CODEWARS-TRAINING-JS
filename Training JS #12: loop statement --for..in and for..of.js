@@ -17,3 +17,16 @@ console.log("keys of ob:")
 showObjectKeys(ob);
 console.log("values of ob:")
 showObjectValues(ob);
+
+//Code results:
+
+keys of ob:
+item1
+item2
+item3
+item4
+values of ob:
+This
+is
+an
+example
