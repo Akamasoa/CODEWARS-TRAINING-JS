@@ -59,3 +59,22 @@ values of arr:
 one
 two
 three
+
+/*
+We can see, keys is the index of the array elements. Need attention: When using for..in with an array, key(index) is always a string, 
+not a number. In the example above, keys is "0", "1" and "2", we can't see the quotes because console.log() doesn't show it.
+
+Although for..in can traverse the array, but we do not recommend the use of it. Because it has a flaw, in some cases, 
+it may not be in accordance with the order of the array elements to traverse the array. 
+So we recommend you use another variant:for..of(New member of ES6), it can traverse all the values of the array, 
+if you don't care about its index. In the example above, function showObjectValues() can be modified like this:
+*/
+
+function showArrayValues(arr){
+  for (var value of arr){
+    console.log(value);
+  }
+}
+
+//Ok, lesson is over, let's us do some task with for..in.
+
