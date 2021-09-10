@@ -30,3 +30,22 @@ This
 is
 an
 example
+
+//for..in can also be used in arrays, at this time the array is treated as an object. Modify the code above, we can see:
+
+function showObjectKeys(obj){
+  for (var key in obj){
+    console.log(key);
+  }
+}
+function showObjectValues(obj){
+  for (var key in obj){
+    console.log(obj[key]);
+  }
+}
+var arr=["one","two","three"];
+console.log("keys of arr:")
+showObjectKeys(arr);
+console.log("values of arr:")
+showObjectValues(arr);
+
