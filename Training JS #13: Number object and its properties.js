@@ -7,4 +7,12 @@ Although it is not necessary to do so. Usage:
 
 var num=new Number(value);
 
+/*
+Parameter value is the value of the Number object to be created or the value to be converted into a numeric value.
+
+Constructor Number() can be used without operator new and directly as a transformation function to use. 
+In this way, when the Number is called, it transforms itself into a number and then returns the converted value (or NaN). Usage:
+*/
+
+var num=Number(value);
 
