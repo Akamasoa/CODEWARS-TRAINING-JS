@@ -93,3 +93,7 @@ You should use for..in in your code, otherwise, your solution may not pass this 
 Don't learn bad habits from those lazy guys ;-)
  */
 
+function giveMeFive(obj){
+  //coding here
+  
+}
