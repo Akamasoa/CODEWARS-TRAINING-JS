@@ -49,3 +49,13 @@ showObjectKeys(arr);
 console.log("values of arr:")
 showObjectValues(arr);
 
+//Code results:
+
+keys of arr:
+0
+1
+2
+values of arr:
+one
+two
+three
