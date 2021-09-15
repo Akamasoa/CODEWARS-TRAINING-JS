@@ -15,6 +15,8 @@ colorOf(1, 2 ,3) should return "#010203"
 
 //That's all of your work. My work is print your color code on your screen.
 
+//Long Solution:
+
 function colorOf(r,g,b){
   //coding here
   let red = r.toString(16);
@@ -27,4 +29,14 @@ function colorOf(r,g,b){
   
    let color = '#' + red + green + blue;
   return color;
+}
+
+//Short Solution:
+
+function colorOf(r,g,b){
+  r.toString(16).length < 2 ? r = '0' + r.toString(16) : r = r.toString(16);
+  g.toString(16).length < 2 ? g = '0' + g.toString(16) : g = g.toString(16);
+  b.toString(16).length < 2 ? b = '0' + b.toString(16) : b = b.toString(16);
+  
+  return '#' + r + g + b;
 }
