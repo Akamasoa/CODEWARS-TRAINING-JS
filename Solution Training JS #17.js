@@ -16,3 +16,22 @@ firstToLast("ababc","d") should return -1
 function firstToLast(str,c){
   return str.includes(c) ? str.lastIndexOf(c) - str.indexOf(c) : -1;
 }
+
+// Function Export
+module.exports = firstToLast
+
+//Test:
+
+const firstToLast = require('.')
+
+test('Test 1', () => {
+  expect(firstToLast('ababc', 'a')).toBe(2)
+})
+
+test('Test 2', () => {
+  expect(firstToLast('ababc', 'c')).toBe(0)
+})
+
+test('Test 3', () => {
+  expect(firstToLast('ababc', 'd')).toBe(-1)
+})
