@@ -76,4 +76,6 @@ use split() and join():My name is John
 
 //Ok, lesson is over. let's us do some task.
 
-
+function splitAndMerge(string, separator) {
+return ???
+}
