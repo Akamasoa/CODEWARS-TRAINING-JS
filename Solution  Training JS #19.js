@@ -13,3 +13,16 @@ alienLanguage("Hello World") should return "HELLo WORLd"
 
 //A small hint: The first conversion of the entire string will make the code easier
 
+function alienLanguage(str){
+  //coding here...
+  return str
+    .split(" ")
+    .map(w=>w.slice(0,-1).toUpperCase() + w.slice(-1).toLowerCase())
+    .join(" ");
+}
+
+//With replace:
+
+function alienLanguage(str){
+  return str.replace(/\w+/g, w => w.slice(0,-1).toUpperCase() + w.slice(-1).toLowerCase());
+}
