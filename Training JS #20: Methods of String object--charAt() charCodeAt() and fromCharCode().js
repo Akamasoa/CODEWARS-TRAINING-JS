@@ -154,3 +154,6 @@ Super agent ZIUScE, on a dark night, stole the Lolli pop from National Museum, c
 You only need to choose one of the text as the answer to the question. That is to say, any one of them is the correct answer.
 */
 
+function topSecret(str){
+????
+}
