@@ -16,7 +16,7 @@ infiniteLoop( [[1,2,3],[4,5,6],[7,8,9]],"right",1) should return [[9,1,2],[3,4,5
 infiniteLoop( [[1,2],[3,4,5,6],[7,8,9,10]],"left",2) should return [[3,4],[5,6,7,8],[9,10,1,2]]
 
 function infiniteLoop(arr,d,n){
-  for (var i = 1; i <= n; i++){
+  for (let i = 1; i <= n; i++){
   if (d === "left"){
     arr[2].push(arr[0].shift());
     arr[1].push(arr[2].shift());
